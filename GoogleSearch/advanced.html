@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h3 style="color:#cc0000; font-family: Arial, Helvetica, sans-serif;  margin-left: 60px ; margin-top:40px">Advance Search</h3>
+    <br>
+    <hr style="height:0.5px;border-width:0;color:#E8E8E8;background-color:#E8E8E8"><br><br>
+    <p   style="font-size: 16px;font-family: Arial, Helvetica, sans-serif; margin-left:60px;" >Find pages with...</p><br><br>
+    <div class="container">
+          <form  class="form-horizontal" action="https://google.com/search">
+                  <div class="form-group">
+                          <label for="all" class="control-label col-sm-2">all these words:</label>
+                              <div class="col-sm-10">
+                              <input class="form-control" type="text" id="all" name="as_q">
+                            </div>
+                    </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-2" for="exact">this exact word or phrase:</label>
+                            <div class="col-sm-10">
+                            <input class="form-control" type="text" id="exact"  name="as_epq" >
+                          </div>
+                        </div>
+                      <div class="form-group">
+                        <label class="control-label col-sm-2" for="any">any of these words:</label>
+                        <div class="col-sm-10">
+                        <input class="form-control" type="text" id ="any" name="as_oq" >
+                      </div>
+                      </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="none">none of these words:</label>
+                    <div class="col-sm-10">
+                      <input class="form-control" type="text" id="none" name="as_eq" >
+                    </div>
+                    </div>
+                       <div class="adbutton">
+                      <input class="adbtn" type="submit" value="Advance Search">
+                    </div>
+            </div>
+          </form>
+      </div>
+    </body>
+</html>

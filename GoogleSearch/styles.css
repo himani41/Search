@@ -1,0 +1,99 @@
+.topright {
+            position:fixed;
+            top: 8px;
+            right: 30px;
+            font-size: 17px;
+          }
+.center {
+          width: 828.364px;
+          height: 200px;
+          margin: 0;
+          position: absolute;
+          top: 20%;
+          left: 55%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.button {
+  margin: 18px 60px 30px 140px;
+  position: center;
+}
+.btn1{
+   background-color: 	#E8E8E8;
+   border: none;
+   color: #808080;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 10px;
+   cursor: pointer;
+   padding: 10px 25px;
+   border-radius: 5px;
+   align-items: center;
+}
+
+.btn2:hover{
+  color:black;
+  border: 0.3px groove #A0A0A0;
+  border-radius: 5px;
+}
+.txt1{
+  border-radius: 50px;
+  background: white;
+  padding: 10px 20px 10px 50px;
+  width: 600px;
+  height: 25px;
+  border: 0.3px solid #E8E8E8;
+  background-image: url('images/searchicon.png');
+  background-position: 15px 12px;
+  background-repeat: no-repeat;
+  background-size:22px 22px;
+
+}
+.txt2:hover,focus{
+    border-radius: 50px;
+    box-shadow:1px 1px 8px 1px rgba(192,192,192,0.3), -1px -0.5px 8px 1px rgba(192,192,192,0.3);
+
+}
+.image{
+  width:45%;
+  height:auto;
+  margin:80px 40px 0px 140px;
+}
+.textbutton{
+  margin:10px;
+}
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  text-decoration: underline;
+}
+.adbtn {
+  background-color: #668cff;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: fixed;
+  right: 200px;
+}
+.adbtn:hover{
+  background-color: #6666ff;
+}
+
+.col-sm-2{
+
+}
