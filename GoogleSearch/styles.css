@@ -13,7 +13,7 @@
           left: 55%;
           -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
+        }
 .button {
   margin: 18px 60px 30px 140px;
   position: center;
@@ -94,6 +94,9 @@ a:hover, a:active {
   background-color: #6666ff;
 }
 
-.col-sm-2{
+.logo{
+  background-image: url('images/logo.png');
 
+  background-repeat: no-repeat;
+  background-size:120px 50px;
 }
